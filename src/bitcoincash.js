@@ -13,7 +13,7 @@ bch.version = 'v' + require('../package.json').version;
 //   }
 // };
 // bch.versionGuard(global._bch);
-global._bch = bch.version;
+// global._bch = bch.version;
 
 // crypto
 bch.crypto = {};
